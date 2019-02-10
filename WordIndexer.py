@@ -28,7 +28,7 @@ class WordIndexer(object):
     word_index_lkup = SortedDict()
 
     #Regular Expression for delimiting words in a given sentence.
-    sentence_pattern = re.compile('[\s\t\r,;?!{}()"\'\[\]\./]+')
+    sentence_pattern = re.compile('[\s\t\r\n,;?!{}()"\'\[\]\./]+')
 
 
     ''' Initializes the class.'''
