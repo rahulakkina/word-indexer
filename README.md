@@ -16,7 +16,7 @@ The above action creates an output file in the format <input-file-index.txt>
 
 eg :  Run the below command
 
-python WordIndexer.py files/god_sees_truth_but-waits.txt
+python WordIndexer.py files/god-sees-truth-but-waits.txt
 
-It generates an output file with the name 'files/god_sees_truth_but-waits-index.txt'
+It generates an output file with the name 'files/god-sees-truth-but-waits-index.txt'
 
