@@ -72,6 +72,7 @@ class WordIndexer(object):
         for word in self.sentence_pattern.split(line):
             if word:
                 lc_word = word.lower()
+
                 if lc_word not in self.word_index_lkup:
                     self.word_index_lkup[lc_word] = SortedSet()
 
@@ -85,9 +86,8 @@ class WordIndexer(object):
         logging.info("Generating file '%s' ...... " % (index_filepath))
 
         with open(index_filepath, 'w') as index_file:
-            for key in self.word_index_lkup.keys():
-                line = "%s %s %s" %(key, ",".join(map(str, self.word_index_lkup[key])), "\n")
-                index_file.write(line)
+            for key, value in self.word_index_lkup.items():
+                index_file.write("%s %s %s" %(key, ",".join(map(str, value)), "\n"))
             index_file.flush()
 
         logging.info("Generated file '%s' with %d words." %(index_filepath, len(self.word_index_lkup)))
