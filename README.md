@@ -8,7 +8,7 @@ Requirements:
 
 We would need Python 3 to be installed on the machine, also need to install module 'sortedcontainers' (Use command 'pip install sortedcontainers' to install) 
 
-In order to run the main use the below command.
+In order to run the main usecase the below command.
 
 python WordIndexer.py <input-file.txt>
 
