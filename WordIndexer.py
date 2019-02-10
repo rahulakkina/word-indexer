@@ -21,7 +21,7 @@ class WordIndexer(object):
 
     logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 
-    #Input file, Datastructure to build the word index & Regular Expression for delimiting words in a given sentence.
+    #Input file, Data-structure to build the word index & Regular Expression for delimiting words in a given sentence.
     [input_file, word_index_lkup, sentence_pattern] = ['', SortedDict(), re.compile('[\s\t\r\n,;?!{}()"\'\[\]\./]+')]
 
     ''' Initializes the class.'''
