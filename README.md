@@ -6,7 +6,7 @@ There is a given input text file (ASCII). Please create an application, that mak
  We would need Python 3 to be installed on the machine, also need to install module **sortedcontainers** (Use command `pip install sortedcontainers` to install)
 
 
-** How do i run ? **
+**How do i run ?**
 
 
 In order to run the main usecase the below command.
