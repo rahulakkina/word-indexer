@@ -9,7 +9,7 @@ There is a given input text file (ASCII). Please create an application, that mak
 ** How do i run ? **
 
 
-In order to run the main use the below command.
+In order to run the main usecase the below command.
 
 `python WordIndexer.py <input-file.txt>`
 
