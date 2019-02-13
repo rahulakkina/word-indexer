@@ -26,7 +26,7 @@ class WordIndexer(object):
 
     ''' Initializes the class.'''
     def __init__(self, file = sys.argv[1]):
-        self.new()
+        self.new(input_file=file)
 
     '''Method that resets the existing index and adds a new file for extraction'''
     def new(self, input_file=sys.argv[1]):
