@@ -4,7 +4,10 @@ There is a given input text file (ASCII). Please create an application, that mak
 **Requirements:**
 
  We would need Python 3 to be installed on the machine, also need to install module **sortedcontainers** (Use command `pip install sortedcontainers` to install)
+ 
+**Approach** 
 
+  We shall create a datastructure `SortedDictionary of SortedSets`, parse the given file with assumed delimiters [\s\t\r\n,;?!{}()"\'\[\]\./]+ (Space, Period, Tab, newline, Comma, Question Mark, Exclamation, Flower Braces, Braces, Square Braces, \, Single & Double Quotes) we shall extracts word line-by-line and build the datastructure. Once a single parse is completed we shall export the datastrcture into discussed format. 
 
 **How do i run ?**
 
