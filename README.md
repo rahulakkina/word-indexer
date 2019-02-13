@@ -21,3 +21,9 @@ eg :  Run the below command
 
 It generates an output file with the name `files/god-sees-truth-but-waits-index.txt`
 
+In order to run the unit tests please run the below command 
+
+`python -m unittest WordIndexerTest`
+
+
+
