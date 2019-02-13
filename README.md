@@ -7,7 +7,7 @@ There is a given input text file (ASCII). Please create an application, that mak
  
 **Approach** 
 
-  We shall create a datastructure `SortedDictionary of SortedSets`, parse the given file with assumed delimiters `[\s\t\r\n,;?!{}()"\'\[\]\./]+` (Space, Period, Tab, newline, Comma, Question Mark, Exclamation, Flower Braces, Braces, Square Braces, \, Single & Double Quotes) we shall extracts word line-by-line and build the datastructure. Once a single parse is completed we shall export the datastrcture into discussed format. 
+  We shall create a datastructure `SortedDictionary of SortedSets`, parse the given file with assumed delimiters `[\s\t\r\n,;?!{}()"\'\[\]\./]+` (Space, Period, Tab, newline, Comma, Question Mark, Exclamation, Flower Braces, Braces, Square Braces, \, Single & Double Quotes) we shall extracts words line-by-line. Once we complete an entire parse, we shall export the datastrcture into discussed index file format. 
 
 **How do i run ?**
 
